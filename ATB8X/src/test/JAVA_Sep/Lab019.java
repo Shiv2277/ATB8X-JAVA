@@ -1,20 +1,23 @@
 public class Lab019 {
     public static void main(String[] args) {
 
-        String browser= "Firefox";
+        String browser= "edge";
 
         switch (browser){
 
             case "chrome":
             System.out.println("execute the chrome browser");
-            break;
+                break;
 
         case "Firefox":
           System.out.println("execute the firefox browser");
-          break;
+
+            break;
          case "edge":
           System.out.println("execute the edge browser");
+
             break;
+
             default:
                 System.out.println("i have no idea");
         }
